@@ -1,2 +1,2 @@
 # study-node
-My studies abot nodejs
+My studies about nodejs
