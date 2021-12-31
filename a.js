@@ -1,13 +1,12 @@
-console.log(require);
-
 console.log(__filename);
 console.log(__dirname);
 
-const logger = require('./logger');
+const { EventEmitter } = require('./a4-logger');
+const Log = require('./a4-logger');
+const logger = new Log();
 
-
-console.log(logger);
+console.log(Log);
 // Exports an Obj
 // logger.log('message to be logged.  ');
 // Export a function
-logger('message new');
+logger.log ('message new');

@@ -21,7 +21,7 @@ e.emit('thisEmit');
 // This must emit after the subscribers have done thei subscribing
 // cause it will call the subscribers syncronously
 
-// Register a subscriber of the event 
+// Register another subscriber of the event 
 e.on('thisEmit', function( arg) { // event args
     console.log('Emitter says something', arg );
 });
@@ -35,6 +35,7 @@ e.on('thisEmit', (arg)=> {
 })
 e.emit('thisEmit', {id: 1, url: 'http://'} );
 
+// We have 2 .emit() but we will see 4 logs: cause we settled 2 observers
 
 // Let's move on 
 console.log(' Now let\'s move on.. ');
