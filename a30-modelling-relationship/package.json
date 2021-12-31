@@ -1,0 +1,15 @@
+{
+  "name": "a30-modelling-relationship",
+  "version": "1.0.0",
+  "description": "d;\r /* Wich us the best way to represent a relationship ?\r  * for those who come from a relational db it is the first example\r  * we're going to expose but\r  * ther are other two\r  * one is organic,\r  * two is pointing at performance\r  * three is a hybrid\r  */",
+  "main": "README.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.1.4"
+  }
+}
