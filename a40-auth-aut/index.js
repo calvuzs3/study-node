@@ -15,10 +15,9 @@ const Fawn = require("fawn");
 // DB connection
 const mongoose = require("mongoose");
 mongoose
-	.connect("mongodb+srv://luca:lucadev@cluster0.5qt5l.mongodb.net/test")
+	.connect("mongodb://localhost/genres")
 	.then(console.log("Connected to the DB."))
 	.catch((err) => console.log("DB connection error: ", err.message));
-// Fawn.init("mongodb+srv://luca:lucadev@cluster0.5qt5l.mongodb.net/test");
 
 const genres = require("./routes/genres");
 const home = require("./routes/home");

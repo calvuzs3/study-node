@@ -3,9 +3,7 @@ const winston = require("winston");
 
 // Db configure
 const isDbbLocal = true;
-const dbString = isDbbLocal
-	? "mongodb://localhost/genres"
-	: "mongodb+srv://dbuser:dbuserdev@cluster0.5qt5l.mongodb.net/test";
+const dbString = isDbbLocal ? "mongodb://localhost/genres" : "";
 
 module.exports = function () {
 	// DB connection
