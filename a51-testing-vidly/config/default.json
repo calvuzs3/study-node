@@ -1,0 +1,4 @@
+{
+	"jwtPrivateKey": "MySecret",
+	"db": "mongodb://localhost/genres_test"
+}

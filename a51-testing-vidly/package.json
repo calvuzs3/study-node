@@ -1,0 +1,32 @@
+{
+	"name": "a51-testing-vidly",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watchAll --verbose --coverage"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/bcrypt": "^5.0.0",
+		"bcrypt": "^5.0.1",
+		"config": "^3.3.6",
+		"express": "^4.17.2",
+		"express-async-errors": "^3.1.1",
+		"fawn": "^2.1.5",
+		"jest": "^27.4.5",
+		"joi": "^17.5.0",
+		"joi-objectid": "^4.0.2",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"mongoose": "^6.1.4",
+		"morgan": "^1.10.0",
+		"winston": "^3.3.3",
+		"winston-mongodb": "^3.0.2"
+	},
+	"devDependencies": {
+		"supertest": "^6.1.6"
+	}
+}

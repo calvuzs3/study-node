@@ -3,7 +3,6 @@
 # The following line excludes every directory named 
 #'node_module'
 #
-node_modules/
 
 # ------------Default file for node projects--------------
 # Logs
